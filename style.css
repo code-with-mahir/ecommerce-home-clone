@@ -21,7 +21,7 @@
 }
 
 .logo {
-  background-image: url(assets/amazon_logo.jpg);
+  background-image: url(assets/amzn_logo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 30px;
@@ -396,7 +396,7 @@ ul a {
   width: 80px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(assets/amazon_logo.jpg);
+  background-image: url(assets/amzn_logo.jpg);
 }
 
 .foot-panel4 {
@@ -646,3 +646,4 @@ ul a {
     margin-right: 7px;
   }
 }
+
