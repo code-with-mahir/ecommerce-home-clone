@@ -21,7 +21,7 @@
 }
 
 .logo {
-  background-image: url(assets/amzn_logo.jpg);
+  background-image: url(assest/amazon_logo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 30px;
@@ -171,7 +171,7 @@ span {
 
 /* Hero Section */
 .hero-section {
-  background-image: url(assets/hero_image.jpg);
+  background-image: url(assest/hero_image.jpg);
   background-size: cover;
   height: 320px;
   max-width: none;
@@ -226,7 +226,7 @@ span {
 }
 
 .box1-img {
-  background-image: url('assets/box2.jpg');
+  background-image: url('assest/box2.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -235,7 +235,7 @@ span {
   margin-bottom: 1rem;
 }
 .box2-img {
-  background-image: url('assets/box1.jpg');
+  background-image: url('assest/box1.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -244,7 +244,7 @@ span {
   margin-bottom: 1rem;
 }
 .box3-img {
-  background-image: url('assets/box3.jpg');
+  background-image: url('assest/box3.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -253,7 +253,7 @@ span {
   margin-bottom: 1rem;
 }
 .box4-img {
-  background-image: url('assets/box4.jpg');
+  background-image: url('assest/box4.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -262,7 +262,7 @@ span {
   margin-bottom: 1rem;
 }
 .box5-img {
-  background-image: url('assets/box5.jpg');
+  background-image: url('assest/box5.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -271,7 +271,7 @@ span {
   margin-bottom: 1rem;
 }
 .box6-img {
-  background-image: url('assets/box6.jpg');
+  background-image: url('assest/box6.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ span {
   margin-bottom: 1rem;
 }
 .box7-img {
-  background-image: url('assets/box7.jpg');
+  background-image: url('assest/box7.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -289,7 +289,7 @@ span {
   margin-bottom: 1rem;
 }
 .box8-img {
-  background-image: url('assets/box8.jpg');
+  background-image: url('assest/box8.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ span {
   margin-bottom: 1rem;
 }
 .box9-img {
-  background-image: url('assets/box9.jpg');
+  background-image: url('assest/box9.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -307,7 +307,7 @@ span {
   margin-bottom: 1rem;
 }
 .box10-img {
-  background-image: url('assets/box10.jpg');
+  background-image: url('assest/box10.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -316,7 +316,7 @@ span {
   margin-bottom: 1rem;
 }
 .box11-img {
-  background-image: url('assets/box11.jpg');
+  background-image: url('assest/box11.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -325,7 +325,7 @@ span {
   margin-bottom: 1rem;
 }
 .box12-img {
-  background-image: url('assets/box12.jpg');
+  background-image: url('assest/box12.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -396,7 +396,7 @@ ul a {
   width: 80px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(assets/amzn_logo.jpg);
+  background-image: url(assest/amazon_logo.jpg);
 }
 
 .foot-panel4 {
@@ -419,7 +419,7 @@ ul a {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 660px) {
   .navbar {
     height: 50px;
   }
@@ -562,21 +562,26 @@ ul a {
   }
 
   /* Shop Section */
+  .shop-section {
+    gap: 0px;
+  }
   .boxes {
     background-color: white;
-    height: max-content;
-    width: 23%;
-    margin: 10px;
+    height: 150px;
+    width: 39%;
+    margin: 20px;
     padding: 2px 0px 0;
+    scale: 1.15;
   }
 
   .box-content {
+    height: 100%;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
   }
 
   .box-content h2 {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
   .box-content a {
@@ -584,7 +589,7 @@ ul a {
   }
 
   .res-img {
-    height: 7em;
+    height: 75%;
     margin-top: 0rem;
     margin-bottom: 0rem;
   }
@@ -596,6 +601,7 @@ ul a {
 
   .foot-panel1 {
     height: 20px;
+    padding: 10px;
     font-size: 0.7rem;
   }
 
@@ -646,4 +652,3 @@ ul a {
     margin-right: 7px;
   }
 }
-
